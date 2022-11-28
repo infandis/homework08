@@ -10,14 +10,17 @@
 	vertical-align: baseline;
     box-sizing: border-box;
 }
+
 html {
     font-size: 16px;
 }
+
 body {
     font-size: 1rem;
 	line-height: 1;
 	font-family: 'Roboto', sans-serif;
 }
+
 ol, ul {
     list-style: none;
 }
@@ -25,10 +28,10 @@ ol, ul {
 /* MAIN */
 
 .wrapper {
-    width: 58%;
+    width: 58%; /* ширина контейнеров, в которых будет весь контент */
 }
 
-.wrapper,
+.wrapper, /* чтобы было посередине */
 .primary,
 .about__title,
 .work__title {
@@ -53,24 +56,24 @@ ol, ul {
 	font-size: 0;
 }
 
-.menu>.menu__item {
-	display: inline-block;
+.menu>.menu__item { 
+	display: inline-block; /* чтобы шло в строчку*/
     font-size: 1rem;
     margin-right: 3.8%;
 }
 
-.menu>.menu__item>.menu__link {
+.menu>.menu__item>.menu__link { /*внешний вид ссылок */
 	text-transform: uppercase;
     text-decoration: none;
     color: #000000;
     font-weight: 400;
 }
 
-.menu>.menu__item>.menu__link--current {
+.menu>.menu__item>.menu__link--current { /* самая первая ссылка у нас немножко особенная */
 	color: #34547A;
 }
 
-.menu>.menu__item>.menu__link:hover {
+.menu>.menu__item>.menu__link:hover { /* интерактивность, меняется цвет при наведении */
 	color: #ff6600;
 }
 
@@ -91,20 +94,20 @@ ol, ul {
 	display: inline-block;
 	margin-top: 65px;
     padding: 20px 41px;
-    background: #34547A;
+    background: #34547a;
     transition: all .8s;
 	text-decoration: none;
 }
 
-.hero__btn:hover {
+.hero__btn:hover { /* чтобы цвет кнопки менялся при наведении */
 	background: #ff6600;
-    transition: all .8s;
+    transition: all .8s; /* но делал это плавно */
 }
 
 .primary,
 .hero__text {
-    width: 49%;
-	color: #727272;
+    width: 49%; /*ширина блока с текстом*/
+	color: #727272; /* цвет */
 }
 
 /*ABOUT*/
@@ -131,6 +134,7 @@ ol, ul {
 }
 
 /*PROJECTS*/
+
 .projects,
 .footer {
     background: #34547A;
@@ -138,7 +142,7 @@ ol, ul {
 
 .projects__wrap,
 .projects__item,
-.projects__description {
+.projects__description { /*чтобы картинки и надпись про проекты шли в строчку*/
     display: flex;
 }
 
@@ -190,6 +194,8 @@ ol, ul {
 	top: 40%;
 	left: 45%;
 }
+
+/*FOOTER*/
 
 .footer {
 	padding: 50px 0;
