@@ -38,7 +38,6 @@ ol, ul {
 /* HEADER */
 
 .header {
-	background-color: #eeeff1;
     padding: 79px 0 141px;
 }
 
@@ -82,12 +81,17 @@ ol, ul {
     font-weight: 500;
 }
 
+.hero__btn,
+.projects__description,
+.footer {
+	color: #ffffff;
+}
+
 .hero__btn {
 	display: inline-block;
 	margin-top: 65px;
     padding: 20px 41px;
     background: #34547A;
-	color: white;
     transition: all .8s;
 	text-decoration: none;
 }
@@ -133,11 +137,13 @@ ol, ul {
 }
 
 .projects__wrap,
-.projects__item {
+.projects__item,
+.projects__description {
     display: flex;
 }
 
-.projects__wrap {
+.projects__wrap,
+.projects__description {
     justify-content: space-between;
 }
 
@@ -147,18 +153,19 @@ ol, ul {
 }
 
 .projects__item {
-	margin-right: 50px;
-}
-.projects__description {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-	margin-left: 8%;
-	color: white;
+	margin-right: 5%;
 }
 
-.work {
-	background-color: #EEEFF1;
+.projects__description {
+    flex-direction: column;
+	margin-left: 8%;
+}
+
+/*WORK*/
+
+.work,
+.header {
+	background-color: #eeeff1;
 }
 
 .work__title {
@@ -185,7 +192,6 @@ ol, ul {
 }
 
 .footer {
-	color: #ffffff;
 	padding: 50px 0;
 }
 
