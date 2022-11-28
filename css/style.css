@@ -97,7 +97,6 @@ ol, ul {
     transition: all .8s;
 }
 
-
 .primary,
 .hero__text {
     width: 49%;
@@ -182,7 +181,7 @@ ol, ul {
 .play {
 	position: absolute;
 	top: 40%;
-	left: 44%;
+	left: 45%;
 }
 
 .footer {
