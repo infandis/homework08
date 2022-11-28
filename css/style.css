@@ -26,7 +26,6 @@ ol, ul {
 
 .wrapper {
     width: 58%;
-    outline: 2px solid forestgreen;
 }
 
 .wrapper,
@@ -186,3 +185,12 @@ ol, ul {
 	left: 44%;
 }
 
+.footer {
+	color: #ffffff;
+	padding: 50px 0;
+}
+
+.footer__text {
+	margin-bottom: 20px;
+	font-weight: 500;
+}
